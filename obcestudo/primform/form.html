@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>primeiro form</title>
+  </head>
+  <h1>Cadastro da liga</h1>
+  <body>
+    <form action="">
+    <div>
+    <label for="nome"> Nome : </label>
+    <input type="text" name="nome" id="nome" />
+    </div> <br>
+
+    <div>
+    <label for="email"> Email : </label>
+    <input type="email" name="email" id="email" />
+    <label for="password"> - Password : </label
+    ><input type="password" name="password" id="password" /> <br />
+    </div> <br>
+
+    <div>
+    <label for="bday"> Data de nascimento : </label>
+    <input type="date" name="bday" id="bday" />
+    <label for="foto"> - Foto : </label>
+    <input type="file" name="foto" id="foto" /> <br />
+    </div> <br>
+
+    <div>
+    <label for="nacio"> Nacionalidade : </label>
+    <select type="text" name="nacio" id="nacio"/>
+        <option value="russian"> Russa </option>
+        <option value="american"> Americana </option>
+        <option value="Brasileira"> Brasileira </option>
+    </select>
+    Genero :
+    <label for="female"> F </label>
+    <input type="radio" name="gender" id="female" />
+    <label for="male"> M </label>
+    <input type="radio" name="gender" id="male" /> 
+    </div> 
+
+    <div>
+    <p> Suas qualidades : </p>
+    <label for="innteligencia"> inteligencia </label>
+    <input type="checkbox" name="inteligencia" id="inteligencia"> |
+    <label for="innteligencia"> agilidade </label>
+    <input type="checkbox" name="agilidade" id="agilidade"> |
+    <label for="innteligencia"> precisao </label>
+    <input type="checkbox" name="precisao" id="precisao"> |
+    <div/>
+
+    <div>
+        <textarea name="desc" id="desc" cols="30" rows="10" placeholder="cote-nos sobre ti" ></textarea>
+    </div>
+    <div>
+    <input type="submit" value="enviar">
+    </div>
+    </form>
+  </body>
+</html>
