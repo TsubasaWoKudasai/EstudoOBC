@@ -20,14 +20,14 @@ const Poder1 = prompt("qual seu poder de ataque ?")
 const Defende = prompt("qual o nome do personagem2 ?")
 let Vida2 = prompt("qual a vida do personagem2 ?")
 const Def2 = prompt("qual a defesa do personagem2 ?")
-const Escudo = prompt("quanto de escudo o personagem2 possui?")
+const Escudo = prompt("o personagem2 possui escudo?")
 
 let Dano = 0
 
 
-if( Poder1 > Def2 && Escudo == 0){
+if( Poder1 > Def2 && Escudo == "nao"){
     Dano = Poder1 - Def2
-} else if ( Poder1 > Def2 && Escudo != 0) { 
+} else if ( Poder1 > Def2 && Escudo != "nao") { 
     Dano = ( Poder1 - Def2 ) / 2 
 }
 
