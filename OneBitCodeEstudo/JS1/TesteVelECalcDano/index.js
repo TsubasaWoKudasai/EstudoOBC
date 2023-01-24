@@ -1,12 +1,12 @@
 // Teste de Velocidade
 
-// const VelCarro1 = prompt("qual a velocidade do carro 1 ?") 
-// const NomeCarro1 = prompt("qual o nome do carro 1 ?") 
+// const velCarro1 = prompt("qual a velocidade do carro 1 ?") 
+// const nomeCarro1 = prompt("qual o nome do carro 1 ?") 
 
-// const VelCarro2 = prompt("qual a velocidade do carro 2 ?")  
-// const NomeCarro2 = prompt("qual o nome do carro 2 ?") 
+// const velCarro2 = prompt("qual a velocidade do carro 2 ?")  
+// const nomeCarro2 = prompt("qual o nome do carro 2 ?") 
 
-// if(VelCarro1 > VelCarro2){
+// if(velCarro1 > velCarro2){
 //     alert("O carro 1 e mais rapido")
 // } else {
 //     alert("O carro 2 e mais rapido")
