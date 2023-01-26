@@ -14,12 +14,18 @@ do{
         case "2":
             alert("Voce escolheu a opcao 2.")
             let removed = cards.pop() 
+            if (!removed) {
+                alert (" Nao ha nenhuma carta no baralho " )
+            } else {    
             alert("Agora consultando " + removed )
+            }
             break
         case "3":
             alert("Voce escolheu a opcao 3.")
             alert("Saindo...")
                 break
+        default:
+            alert("Opcao invalida")
     }
 
     
