@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <header>
+    <nav>
+      <a href="pagina1.html"> <img src="./logo.png" alt="" /> </a>
+      <a href="./pagina2.html">| The Spaceships </a>
+      <a href="./pagina3.html">| Hire Us</a>
+    </nav>
+    <hr />
+  </header>
+  <br />
+  <body>
+    <form action="">
+      <section>
+        <h1>Hire us now</h1>
+        <h3>
+          Leave a message to request our services. We will return your request
+          as soon as possible
+        </h3>
+      </section>
+      <section>
+        <div>
+          <label for="nome"> Nome: </label>
+          <input type="text" name="nome" id="nome" />
+          <label for="email"> - E-mail: </label>
+          <input type="email" name="email" id="email" required />
+        </div>
+        <br /><br />
+        <div>
+          <label for="naves"> Nave: </label>
+          <select name="naves" id="naves">
+            <option value="falcon9">Falcon 9</option>
+            <option value="falconheavy">Falcon Heavy</option>
+          </select>
+          <label for="tiposerv"> | Tipo de servico</label>
+          <input type="text" name="tiposerv" id="tiposerv" />
+        </div>
+      </section>
+      <br /><br />
+      <section>
+        <div>
+          <input type="submit" value="enviar" />
+        </div>
+      </section>
+    </form>
+  </body>
+</html>
