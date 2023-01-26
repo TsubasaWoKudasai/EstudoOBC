@@ -2,7 +2,7 @@ const word = prompt("informe uma palavra")
 let reversedWord = ""
 
 for (let i = word.lenght -1; i>=0 ; i-- ){
-    reversedWord += palavra[i]
+    reversedWord += word[i]
 }
 
 if (word === reversedWord){
